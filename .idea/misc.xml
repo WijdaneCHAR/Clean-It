@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Gi4/ProjectAndroid/CleanIT/app/src/main/res/drawable/border.xml" value="0.1925925925925926" />
+        <entry key="..\:/Gi4/ProjectAndroid/CleanIT/app/src/main/res/layout/activity_article_item.xml" value="0.14628623188405798" />
+        <entry key="..\:/Gi4/ProjectAndroid/CleanIT/app/src/main/res/layout/activity_register.xml" value="0.14628623188405798" />
+        <entry key="..\:/Gi4/ProjectAndroid/CleanIT/app/src/main/res/layout/activity_vetements.xml" value="0.1" />
+        <entry key="..\:/Gi4/ProjectAndroid/CleanIT/app/src/main/res/menu/menu_acceuil.xml" value="0.1" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_acceuil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_article_item.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_change_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_vetements.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Downloads/CleanItApp/app/src/main/res/layout/activity_article_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Downloads/CleanItApp/app/src/main/res/layout/activity_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Downloads/CleanItApp/app/src/main/res/layout/activity_panier.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Electronic Store/Downloads/CleanItApp/app/src/main/res/layout/activity_vetements.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_acceuil.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_article_item.xml" value="0.3632286995515695" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_chaussures.xml" value="0.22" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_literie.xml" value="0.1" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_login.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_panier.xml" value="0.39307535641547864" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_panier_item.xml" value="0.1" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/activity_vetements.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/layout/delete.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/menu/menu_acceuil.xml" value="0.1" />
+        <entry key="..\:/Users/HP/OneDrive/Documents/GitHub/LaundryService/app/src/main/res/menu/menu_user.xml" value="0.1" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/drawable/ic_person.xml" value="0.2890625" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/layout/activity_change_password.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/layout/activity_user_profile.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/layout/activity_vetements.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/NadorFix/Downloads/CleanIT/app/src/main/res/menu/menu_acceuil.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Wijdane/Downloads/CleanItApp/app/src/main/res/layout/activity_panier.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/Wijdane/Downloads/CleanItApp/app/src/main/res/layout/popup_date.xml" value="0.2151268115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/linearLay"
+    android:background="@drawable/border">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picpanier"
+        android:layout_width="74dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/chemise" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/namepanier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chemise"
+                android:textColor="@color/nameArticle"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idArticle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:text="id"
+                android:textColor="@color/nameArticle"
+                android:textSize="26sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/prix"
+                    android:textColor="@color/nameArticle" />
+
+                <TextView
+                    android:id="@+id/pricepanier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:text="10"
+                    android:textColor="@color/nameArticle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="dhs"
+                    android:textColor="@color/nameArticle" />
+
+                <ImageView
+                    android:id="@+id/panier"
+                    android:layout_width="60dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/panier" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="la quantite a ajouter au panier"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

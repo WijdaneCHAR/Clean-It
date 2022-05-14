@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/linearLay"
+    android:background="@drawable/border"
+    android:screenOrientation="portrait"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picpanier"
+        android:layout_width="80dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/chemise" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namepanier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chemise"
+            android:textColor="@color/nameArticle"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:paddingBottom="0dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nameArticle"
+                    android:text="@string/prixArticle" />
+
+                <TextView
+                    android:id="@+id/pricepanier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="10"
+                    android:textColor="@color/nameArticle" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text=" DHs"
+                    android:textColor="@color/nameArticle" />
+
+                <TextView
+                    android:id="@+id/prixUnit"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="unit"
+                    android:textColor="@color/nameArticle"
+                    />
+                <!--android:visibility="invisible"-->
+                <TextView
+                    android:id="@+id/prixSold"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="sold"
+                    android:textColor="@color/nameArticle"
+                    />
+                <TextView
+                    android:id="@+id/idService"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/nameArticle"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:paddingBottom="0dp">
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:backgroundTint="@color/statBar"
+                    android:padding="0dp"
+                    android:text="+"
+                    android:textSize="10dp"
+                    android:id="@+id/pluspanier"
+                    tools:ignore="TouchTargetSizeCheck" />
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/qtepanier"
+                    android:paddingLeft="8dp"
+                    android:text="1"
+                    android:backgroundTint="@color/nameArticle"
+                    />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:backgroundTint="@color/statBar"
+                    android:padding="0dp"
+                    android:text="-"
+                    android:id="@+id/moinspanier"
+                    android:textSize="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="190dp"
+                    android:src="@android:drawable/ic_menu_delete"
+                    android:id="@+id/delete"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp">
+                <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Traitement special"
+                    android:textSize="8dp"
+                    android:textColor="@color/nameArticle"
+                    android:buttonTint="@color/statBar"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

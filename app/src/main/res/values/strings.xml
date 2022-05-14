@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CLEAN IT</string>
+    <string name="chemise">Chemise</string>
+    <string name="prix">Prix Unitaire : </string>
+    <string name="prixArticle">Prix : </string>
+    <string name="cr_er_un_compte"> Créer un compte </string>
+    <string name="vous_navez_pas_de_compte"> Vous navez pas de compte ? </string>
+</resources>

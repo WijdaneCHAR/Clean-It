@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cleanit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CleanIT">
+        <activity
+            android:name=".Acceuil"
+            android:exported="false" />
+        <activity
+            android:name=".Literie"
+            android:exported="false" />
+        <activity
+            android:name=".Chaussures"
+            android:exported="false" />
+        <activity
+            android:name=".PanierItem"
+            android:exported="false" />
+        <activity
+            android:name=".PanierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Vetements"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleItem"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

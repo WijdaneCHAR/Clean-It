@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Acceuil">
+
+    <Button
+        android:id="@+id/vet"
+        android:layout_width="275dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#5F8FC3"
+        android:text="Vetements"
+        app:layout_constraintBottom_toTopOf="@+id/chauss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chauss"
+        android:layout_width="275dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#5F8FC3"
+        android:text="Chaussures"
+        app:layout_constraintBottom_toTopOf="@+id/lit"
+        app:layout_constraintEnd_toEndOf="@+id/vet"
+        app:layout_constraintStart_toStartOf="@+id/vet"
+        app:layout_constraintTop_toBottomOf="@+id/vet" />
+
+    <Button
+        android:id="@+id/lit"
+        android:layout_width="275dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="323dp"
+        android:backgroundTint="#5F8FC3"
+        android:text="Literie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chauss"
+        app:layout_constraintStart_toStartOf="@+id/chauss"
+        app:layout_constraintTop_toBottomOf="@+id/chauss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
